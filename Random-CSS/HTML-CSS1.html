@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <title>CSS1</title>
     <style>
+        span {
+            border-bottom: 5px solid gray;
+        }
+        h1 + p {
+            font-size: 35px;
+            color: green;
+        }
         p {
             color: blue;
             font-size: 30px;
-            font-family: "Century Gothic";
+        }
+        p:first-of-type {
+            color: sienna;
+        }
+        blockquote {
+            background-color: teal;
+            border:solid;
+            border-style: solid;
+            border-color: black;
+            margin: 0 auto;
+            margin-left: 300px;
+            margin-right: 300px;
         }
         blockquote p {
             color: pink;
@@ -16,13 +34,13 @@
             margin-top: 100px;
             letter-spacing: 5px;
             background: lightblue;
-            font-family: "Arial";
             color: blue;
-            font-size: 60px
+            font-size: 60px;
+            display: inline-block;
+            margin-left: 30%;
         }
         body {
             background-color: yellow;
-            background-image: url("http://www.gemzell.se/blogg/wp-content/uploads/2013/07/image_170007.jpg");
             background-repeat: no-repeat;
         }
     </style>
@@ -31,12 +49,21 @@
 
     <h1>Is this red yet?</h1>
 
-    <p>Detta är en fakin brödtext lmao bla bla bla bla bla bla bla bla</p>
+    <p align="center">Detta är en fakin brödtext lmao <span>bla bla bla bla bla bla bla bla</span></p>
+
+    <blockquote>
+        <p>Detta är en fakin brödtext lmao</p>
+        <p>Detta är en fakin brödtext lmao</p>
+        <p>Detta är en fakin brödtext lmao</p>
+        <p>Detta är en fakin brödtext lmao</p>
+        <p>Detta är en fakin brödtext lmao</p>
+        <p>Detta är en fakin brödtext lmao</p>
+    </blockquote>
 
     <blockquote>
         <p>
             Denna texten är troligtvis råsa :P
         </p>
     </blockquote>
-</bod
+</body>
 </html>
