@@ -1,19 +1,47 @@
-.standard {
+@import "https://fonts.googleapis.com/css?family=Titillium+Web";
+.background {
+    background-color: black;
+    background-image: url("http://www.picgifs.com/graphics/c/cute/graphics-cute-160852.jpg");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+.headline {
+    color:darkslategrey;
+}
+.headlinee {
+    border-bottom: dotted;
+    color: darkslategray;
+}
+.underline {
+    border-bottom: dashed;
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+.underheadlinered {
+    color:red;
+}
+.underheadlineblue {
+    color:blue;
+}
+.underheadlineyellow {
+    color: yellow;
+}
+.pred {
     color: red;
+    font-size: 20px;
 }
-h1.standard {
-    color: aqua;
+.pblue {
+    color:blue;
 }
-body .standard {
-    color: chartreuse;
+.pwhite {
+    color: white;
 }
-h2, h3 {
-    color: yellowgreen;
-}
-.border {
-    border: dotted;
-    border-color: black;
-}
-.bodytag {
-    background: grey;
+.pyellow {
+    color:yellow;
 }
