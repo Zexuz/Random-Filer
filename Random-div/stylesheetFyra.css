@@ -7,7 +7,6 @@ header {
 }
 main {
     overflow: hidden;
-    display: inline-block;
     margin-bottom: 20px;
 }
 #wrap {
