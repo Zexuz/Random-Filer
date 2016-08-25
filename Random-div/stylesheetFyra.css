@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+main {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#wrap {
+    background-color: white;
+    display: block;
+    width: 860px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border: 1px black solid;
+}
+.content, aside {
+    background-color: lightblue;
+    /*display: inline-block;*/
+    float: left;
+    min-height: 500px;
+}
+.content {
+    width: 635px;
+    margin-right: 20px;
+    border: 1px black solid;
+}
+aside {
+    width: 200px;
+    border: 1px solid black;
+}
+nav, ul, li {
+    display: inline-block;
+    padding-left: 20px;
+    list-style: none;
+}
+nav, ul {
+    padding: 0;
+}
+footer {
+    background-color: lightblue;
+    border: solid 1px black;
+}
+h1, main, footer {
+    text-align: center;
+}
