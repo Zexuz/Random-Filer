@@ -1,0 +1,19 @@
+.standard {
+    color: red;
+}
+h1.standard {
+    color: aqua;
+}
+body .standard {
+    color: chartreuse;
+}
+h2, h3 {
+    color: yellowgreen;
+}
+.border {
+    border: dotted;
+    border-color: black;
+}
+.bodytag {
+    background: grey;
+}
