@@ -1,0 +1,44 @@
+*{
+    outline: none;
+}
+a {
+    color: red;
+    font-size: 40px;
+}
+
+    a:visited {
+    color: purple;
+    }
+
+    a:hover {
+        color: green;
+    }
+
+h1:hover {
+    color: red;
+}
+input:checked {
+    margin: 0;
+}
+input:focus {
+    border: red;
+}
+.wrap p:first-child {
+    font-size: 20px;
+}
+
+.wrap p:last-child {
+    font-size: 30px;
+}
+
+.wrap p:not(.p) {
+    color:red;
+}
+
+ul li:nth-child(2n) {
+    color:red;
+}
+
+body {
+    padding: 10px;
+}

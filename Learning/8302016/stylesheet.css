@@ -1,0 +1,70 @@
+body {
+    background-color: coral;
+}
+
+header{
+    text-align: center;
+}
+
+#wrap {
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 370px;
+    height: 240px;
+    display: block;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.content {
+    width: 420px;
+    height: 315px;
+}
+.colorred {
+    background-color: red;
+}
+.colorblue {
+    background-color: blue;
+}
+.colorgreen {
+    background-color: green;
+}
+.coloryellow {
+    background-color: yellow;
+}
+.colorpurple {
+    background-color: purple;
+}
+.colorgrey {
+    background-color: grey;
+}
+
+.bigtext h2 {
+    font-size: 30px;
+}
+
+.smalltext {
+    font-size: small;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.texcenter {
+    text-align: center;
+}
+
+.textright {
+    text-align: right;
+}
+
+.whitefont {
+    color: white;
+}

@@ -1,0 +1,77 @@
+#wrap {
+	width: 430px;
+	margin: 0 auto;
+}
+
+.pixel {
+	display: block;
+	float: left;
+}
+
+/* Length */
+	.one {
+		height: 20px;
+		width: 20px;
+	}
+
+	.two {
+		height: 20px;
+		width: 40px;
+	}
+
+	.three {
+		height: 20px;
+		width: 60px;
+	}
+
+	.four {
+		height: 20px;
+		width: 80px;
+	}
+
+	.five {
+		height: 20px;
+		width: 100px;
+	}
+
+	.six {
+		height: 20px;
+		width: 120px;
+	}
+
+	.seven {
+		height: 20px;
+		width: 140px;
+	}
+
+	.eight {
+		height: 20px;
+		width: 160px;
+	}
+
+	.nine {
+		height: 20px;
+		width: 180px;
+	}
+
+	.ten {
+		height: 20px;
+		width: 200px;
+	}
+
+/* Color */
+	.red {
+		background-color: red;
+	}
+
+	.black {
+		background-color: black;
+	}
+
+	.tan {
+		background-color: tan;
+	}
+
+	.white {
+		background-color: #eee;
+	}
