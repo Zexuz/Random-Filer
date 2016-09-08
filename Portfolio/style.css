@@ -1,0 +1,56 @@
+html, body, #wrap {
+    height: 100%;
+    width: 100%;
+}
+
+#wrap {
+    background-color: black;
+    position: relative;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+header {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+    main .container-fluid {
+
+    }
+
+.height {
+
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.linethru {
+    text-decoration: line-through;
+}
