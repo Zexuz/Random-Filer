@@ -16,12 +16,14 @@ header {
     top: 0;
     position: absolute;
     width: 100%;
+    padding: 3%;
 }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 3%;
 }
 
 main {
@@ -29,14 +31,29 @@ main {
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
+    padding: 3%;
     }
 
     main .container-fluid {
 
     }
 
-.height {
+    /*Classes*/
 
+.underline {
+    text-decoration: underline;
+}
+
+.smalltext {
+    font-size: 75%;
+}
+
+.middletextsmall {
+    font-size: 65%;
+}
+
+.namesize {
+    font-size: 80%;
 }
 
 .center {
@@ -54,3 +71,7 @@ main {
 .linethru {
     text-decoration: line-through;
 }
+
+/*                 <div class="col-lg-2 col-md-4 col-sm-4 right">
+                    <a href="page3.html"><p class="smalltext"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Tillbaka</p></a>
+                </div> */
