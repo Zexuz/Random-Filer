@@ -72,6 +72,10 @@ main {
     text-decoration: line-through;
 }
 
+.yellow{
+    color: #ffffa6;
+}
+
 /*                 <div class="col-lg-2 col-md-4 col-sm-4 right">
                     <a href="page3.html"><p class="smalltext"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Tillbaka</p></a>
                 </div> */
